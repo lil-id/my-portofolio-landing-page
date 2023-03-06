@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Google Sans";
-    src: url(src/font/GoogleSans-Regular-v1.27.ttf),
-         url(src/font/GoogleSans-Medium-v1.27.ttf),
-         url(https://github.com/lil-id/my-portofolio-landing-page/blob/024a9c94b6354602772d4304295434656545e5b4/src/font/GoogleSans-Bold-v1.27.ttf)
+    src: url(../src/font/GoogleSans-Regular-v1.27.ttf),
+         url(../src/font/GoogleSans-Medium-v1.27.ttf),
+         url(..//src/font/GoogleSans-Bold-v1.27.ttf)
 }
 
 * {
