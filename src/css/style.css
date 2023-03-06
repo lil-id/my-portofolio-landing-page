@@ -1,8 +1,8 @@
 @font-face {
     font-family: "Google Sans";
-    src: url("../font/GoogleSans-Regular-v1.27.ttf"),
-         url("../font/GoogleSans-Medium-v1.27.ttf"),
-         url("../font/GoogleSans-Bold-v1.27.ttf")
+    src: url(../font/GoogleSans-Regular-v1.27.ttf),
+         url(../font/GoogleSans-Medium-v1.27.ttf),
+         url(../font/GoogleSans-Bold-v1.27.ttf)
 }
 
 * {
