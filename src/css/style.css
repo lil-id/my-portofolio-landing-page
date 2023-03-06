@@ -1,13 +1,17 @@
 @font-face {
     font-family: "Google Sans";
-    src: url(/src/font/GoogleSans-Regular-v1.27.ttf),
-         url(/src/font/GoogleSans-Medium-v1.27.ttf),
-         url(/src/font/GoogleSans-Bold-v1.27.ttf)
+    src: url(src/font/GoogleSans-Regular-v1.27.ttf),
+         url(src/font/GoogleSans-Medium-v1.27.ttf),
+         url(src/font/GoogleSans-Bold-v1.27.ttf)
 }
 
 * {
     margin: 0;
     padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 /* Navbar */
@@ -68,7 +72,7 @@ header {
 }
 
 .container-main-menu li:hover {
-    text-decoration: underline;
+    text-decoration: line-through;
 }
 
 .about, .blog, .contact, .project {
@@ -178,7 +182,7 @@ header {
     line-height: 1.6;
 }
 
-.container-quote h1 {
+.container-quote h2 {
     font-size: 40px;
 }
 
@@ -229,7 +233,7 @@ header {
     border-bottom: 2px solid black;
 }
 
-.section-second-screen-right h1 {
+.section-second-screen-right h2 {
     color: white;
     margin: 0 35px;
     font-size: 55px;
@@ -277,7 +281,7 @@ header {
     justify-content: center;
 }
 
-.container-heading-first h1 {
+.container-heading-first h2 {
     font-size: 40px;
     line-height: 2;
 }
@@ -317,7 +321,7 @@ header {
     border: 2px solid black;
 }
 
-.container-card-information h1 {
+.container-card-information h2 {
     width: 250px;
     margin-top: 10px;
     font-size: 20px;
@@ -360,7 +364,7 @@ header {
     justify-content: center;
 }
 
-.container-heading-second h1 {
+.container-heading-second h2 {
     font-size: 40px;
     line-height: 2;
 }
@@ -391,7 +395,7 @@ header {
     border-bottom: 2px solid black;
 }
 
-.section-fourth-screen-left h1 {
+.section-fourth-screen-left h2 {
     margin: 0 35px;
     font-size: 75px;
     line-height: 1.2;
@@ -464,7 +468,7 @@ header {
     border-bottom: 2px solid black;
 }
 
-.section-fifth-screen-left h1 {
+.section-fifth-screen-left h2 {
     margin: 0 35px;
     font-size: 75px;
     line-height: 1.2;
@@ -593,7 +597,7 @@ footer {
 
     /* Container Quotes */
 
-    .container-quote h1 {
+    .container-quote h2 {
         font-size: 30px;
     }
     
@@ -616,7 +620,7 @@ footer {
         height: 417px;
     }
 
-    .section-second-screen-right h1 {
+    .section-second-screen-right h2 {
         font-size: 28px;
     }
 
@@ -631,7 +635,7 @@ footer {
 
     /* First Heading Container */
 
-    .container-heading-first h1 {
+    .container-heading-first h2 {
         font-size: 35px;
     }
 
@@ -654,7 +658,7 @@ footer {
         height: 170px;
     }
 
-    .container-card-information h1 {
+    .container-card-information h2 {
         width: 250px;
         margin-top: 5px;
         font-size: 18px;
@@ -674,7 +678,7 @@ footer {
 
     /* Second Heading Container */
 
-    .container-heading-second h1 {
+    .container-heading-second h2 {
         font-size: 35px;
     }
 
@@ -688,7 +692,7 @@ footer {
         height: 417px;
     }
 
-    .section-fourth-screen-left h1 {
+    .section-fourth-screen-left h2 {
         font-size: 45px;
     }
 
@@ -722,7 +726,7 @@ footer {
         height: 417px;
     }
     
-    .section-fifth-screen-left h1 {
+    .section-fifth-screen-left h2 {
         font-size: 45px;
     }
 
@@ -818,7 +822,7 @@ footer {
 
     /* Container Quotes */
 
-    .container-quote h1 {
+    .container-quote h2 {
         font-size: 30px;
     }
     
@@ -849,7 +853,7 @@ footer {
         border-bottom: none;
     }
 
-    .section-second-screen-right h1 {
+    .section-second-screen-right h2 {
         font-size: 27px;
     }
 
@@ -864,7 +868,7 @@ footer {
 
     /* First Heading Container */
 
-    .container-heading-first h1 {
+    .container-heading-first h2 {
         font-size: 35px;
     }
 
@@ -887,7 +891,7 @@ footer {
         height: 220px;
     }
 
-    .container-card-information h1 {
+    .container-card-information h2 {
         width: 315px;
         margin-top: 10px;
         font-size: 22px;
@@ -913,7 +917,7 @@ footer {
 
     /* Second Heading Container */
 
-    .container-heading-second h1 {
+    .container-heading-second h2 {
         font-size: 35px;
     }
 
@@ -939,7 +943,7 @@ footer {
         border-left: 2px solid black;
     }
 
-    .section-fourth-screen-left h1 {
+    .section-fourth-screen-left h2 {
         font-size: 45px;
     }
     
@@ -964,7 +968,7 @@ footer {
         height: 417px;
     }
     
-    .section-fifth-screen-left h1 {
+    .section-fifth-screen-left h2 {
         font-size: 45px;
     }
 
