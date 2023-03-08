@@ -72,7 +72,7 @@ header {
 }
 
 .container-main-menu li:hover {
-    text-decoration: line-through;
+    text-decoration: underline;
 }
 
 .about, .blog, .contact, .project {
@@ -141,6 +141,7 @@ header {
 }
 
 .section-one-screen-left article {
+    max-width: 650px;
     margin: 25px 125px 0 35px;
 }
 
@@ -243,6 +244,7 @@ header {
 }
 
 .section-second-screen-right article {
+    max-width: 865px;
     margin: 25px 35px 0 35px;
 }
 
@@ -343,6 +345,7 @@ header {
     width: 121px;
     height: 44px;
     cursor: pointer;
+    font-size: 15px;
     margin-top: 25px;
     font-weight: 600;
     border: 2px solid black;
@@ -403,6 +406,7 @@ header {
 }
 
 .section-fourth-screen-left article {
+    max-width: 570px;
     margin: 25px 35px 0 35px;
 }
 
@@ -438,6 +442,7 @@ header {
     width: 121px;
     height: 44px;
     cursor: pointer;
+    font-size: 15px;
     font-weight: 600;
     margin-left: 35px;
     border: 2px solid black;
@@ -508,7 +513,7 @@ header {
 footer {
     height: 112px;
     display: flex;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     align-items: center;
     justify-content: center;
